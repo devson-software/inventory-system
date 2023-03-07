@@ -1,0 +1,48 @@
+// app global css in SCSS form
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.signup-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.signup-input {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.signup-btn {
+  max-width: 400px;
+}
+
+.signin-input {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.signin-btn {
+  max-width: 400px;
+}
+
+.text-right {
+  text-align: right;
+}
